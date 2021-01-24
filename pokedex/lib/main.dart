@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:pokedex/modules/home/pages/home_page.dart';
+import 'modules/home/repository/pokedex_repository.dart';
 
 void main() {
   runApp(MyApp());
+  //PokedexRepository.instance.get().then(
+  //(pokedex) {
+  //print(pokedex.pokemon.toString());
+  //},
+  // );
 }
 
 class MyApp extends StatelessWidget {
